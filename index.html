@@ -367,19 +367,19 @@
         <label for="fullName" class="text-sm font-semibold">Full name</label>
         <input id="fullName" name="fullName" type="text" required
                class="w-full rounded-xl bg-white/10 ring-1 ring-white/10 focus:ring-2 focus:ring-[#FF8A1A] outline-none px-3 py-3 placeholder-white/50"
-               placeholder="[Type your name here]" />
+               placeholder="[Type your Full Name here]" />
       </div>
       <div class="space-y-1">
         <label for="phone" class="text-sm font-semibold">Phone number</label>
         <input id="phone" name="phone" type="tel" required
                class="w-full rounded-xl bg-white/10 ring-1 ring-white/10 focus:ring-2 focus:ring-[#FF8A1A] outline-none px-3 py-3 placeholder-white/50"
-               placeholder="Type your phone number here" />
+               placeholder="Phone number" />
       </div>
       <div class="space-y-1">
         <label for="email" class="text-sm font-semibold">Email</label>
         <input id="email" name="email" type="email" required
                class="w-full rounded-xl bg-white/10 ring-1 ring-white/10 focus:ring-2 focus:ring-[#FF8A1A] outline-none px-3 py-3 placeholder-white/50"
-               placeholder="e.g. yourname@gmail.com" />
+               placeholder="type Email e.g. yourname@gmail.com" />
       </div>
       <button type="submit"
               class="w-full orangrad text-[#111] font-extrabold rounded-2xl px-4 py-3 shadow-soft">Apply Now</button>
@@ -666,26 +666,26 @@
         <button id="closePaymentModal" class="px-3 py-1 text-sm rounded-lg bg-white/10 hover:bg-white/15">Close</button>
       </div>
       <div class="px-6 py-5 space-y-3" id="paymentCardBody">
-        <p class="text-sm">Hi <span id="pfUserName" class="font-bold">there</span>, pay to this account to get started.  Do not pay with Opay.</p>
+        <p class="text-sm">Hi <span id="pfUserName" class="font-bold">there</span>, pay to this account to get started.</p>
         <div class="grid grid-cols-1 gap-2 text-sm">
           <div class="flex items-center justify-between bg-white/5 rounded-xl p-3 ring-1 ring-white/10">
             <div>
               <div class="text-white/70">Account number</div>
-              <div class="font-bold" id="pfAcctNo">0127011358</div>
+              <div class="font-bold" id="pfAcctNo">8117292288</div>
             </div>
             <button class="ml-3 text-xs bg-white/10 hover:bg-white/15 rounded-lg px-3 py-2" data-copy-target="#pfAcctNo">Copy</button>
           </div>
           <div class="flex items-center justify-between bg-white/5 rounded-xl p-3 ring-1 ring-white/10">
             <div>
               <div class="text-white/70">Account Name</div>
-              <div class="font-bold" id="pfAcctName">Magnus Innovation</div>
+              <div class="font-bold" id="pfAcctName">FAVOUR EVANS</div>
             </div>
             <button class="ml-3 text-xs bg-white/10 hover:bg-white/15 rounded-lg px-3 py-2" data-copy-target="#pfAcctName">Copy</button>
           </div>
           <div class="flex items-center justify-between bg-white/5 rounded-xl p-3 ring-1 ring-white/10">
             <div>
               <div class="text-white/70">Bank</div>
-              <div class="font-bold" id="pfBank">Wema Bank</div>
+              <div class="font-bold" id="pfBank">Opay</div>
             </div>
             <button class="ml-3 text-xs bg-white/10 hover:bg-white/15 rounded-lg px-3 py-2" data-copy-target="#pfBank">Copy</button>
           </div>
@@ -817,7 +817,7 @@ Bank: ${bank}
 Please confirm my payment. I will upload my proof of payment now (picture/screenshot/file/pdf).`;
 
         // WhatsApp contact: 09011633869 -> use international format for wa.me (Nigeria +234)
-        const waNumber = "2349160014944";
+        const waNumber = "2348080162158";
         const url = "https://wa.me/" + waNumber + "?text=" + encodeURIComponent(msg);
         window.location.href = url;
       });
